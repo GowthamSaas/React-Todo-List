@@ -25,7 +25,7 @@ function App() {
       todos.map((todo) =>
         todo.id === id ? { ...todo, completed: !todo.completed } : todo
       )
-    );
+    // Missing closing parenthesis here
   };
 
   const deleteTodo = (id) => {
